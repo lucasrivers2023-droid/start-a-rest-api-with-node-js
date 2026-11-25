@@ -1,0 +1,21 @@
+{
+  "name": "node-rest-api",
+  "version": "1.0.0",
+  "description": "Starter REST API built with Node.js and Express",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
